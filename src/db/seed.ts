@@ -4,6 +4,8 @@ import { schema } from './schemas/index.ts';
 
 await reset(db, schema);
 
+console.log('RESET')
+
 await seed(db, schema).refine((f) => {
   return {
     rooms: {
@@ -13,6 +15,9 @@ await seed(db, schema).refine((f) => {
         description: f.loremIpsum(),
       },
     },
+    questions: {
+      count: 20
+    }
   };
 });
 
