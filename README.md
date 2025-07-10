@@ -1,6 +1,6 @@
 # 🧠 NLW Agents
 
-NLW Agents é um backend robusto e escalável desenvolvido em Node.js com TypeScript, projetado para habilitar interações inteligentes baseadas em áudio em salas virtuais. A aplicação permite que usuários façam perguntas a uma IA (Google Gemini), que responde com base no conteúdo de uma gravação de áudio principal. Ideal para contextos como aulas, podcasts, webinars e palestras.
+NLW Agents é um projeto robusto e escalável desenvolvido em Node.js com TypeScript, projetado para habilitar interações inteligentes baseadas em áudio em salas virtuais. A aplicação permite que usuários façam perguntas a uma IA (Google Gemini), que responde com base no conteúdo de uma gravação de áudio principal. Ideal para contextos como aulas, podcasts, webinars e palestras.
 
 ---
 
